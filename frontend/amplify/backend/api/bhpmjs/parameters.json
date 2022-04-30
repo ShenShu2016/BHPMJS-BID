@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "bhpmjs",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authbhpmjs10bca66010bca660",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2022-04-27T17:43:36.092Z"
+}
